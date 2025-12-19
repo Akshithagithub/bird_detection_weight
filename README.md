@@ -19,6 +19,7 @@ Upload any new video for analysis
 
 Download CSV weight summary report
 
+
 2. Folder Structure
 Poultry project/
 │
@@ -39,6 +40,7 @@ Poultry project/
 │
 ├── README.md
 └── requirements.txt
+
 
 3. Environment Setup
 Create virtual environment:
@@ -89,6 +91,7 @@ GET /download-video
 Download weight CSV
 GET /download-csv
 
+
 6. CURL Example for /analyze_video
 
 Use this to send a video to backend for analysis:
@@ -102,6 +105,7 @@ curl -X POST "http://127.0.0.1:8000/analyze_video" \
 Example:
 
 file=@input/input.mp4
+
 
 7. Method Explanation (Implementation Details)
 Bird counting approach:
@@ -134,6 +138,7 @@ output_video.mp4 → fully annotated bird tracking video
 sample_output.json → JSON returned from /analyze_video
 
 bird_weight_report.csv → summary table
+
 
 9. Notes
 
