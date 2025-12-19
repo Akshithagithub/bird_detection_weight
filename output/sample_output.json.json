@@ -1,0 +1,122 @@
+{
+  "video_name": "input/input.mp4",
+  "total_unique_birds": 9,
+  "frame_count": 66,
+  "unique_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "bird_details": [
+    {
+      "id": 1,
+      "weight_index": 0.338
+    },
+    {
+      "id": 2,
+      "weight_index": 1
+    },
+    {
+      "id": 3,
+      "weight_index": 1
+    },
+    {
+      "id": 4,
+      "weight_index": 0.294
+    },
+    {
+      "id": 5,
+      "weight_index": 0.25
+    },
+    {
+      "id": 6,
+      "weight_index": 0.467
+    },
+    {
+      "id": 7,
+      "weight_index": 0.115
+    },
+    {
+      "id": 8,
+      "weight_index": 0.267
+    },
+    {
+      "id": 9,
+      "weight_index": 1
+    }
+  ],
+  "birds_detected_each_frame": {
+    "frame_0": 1,
+    "frame_6": 0,
+    "frame_12": 0,
+    "frame_18": 0,
+    "frame_24": 1,
+    "frame_30": 1,
+    "frame_36": 1,
+    "frame_42": 0,
+    "frame_48": 2,
+    "frame_54": 0,
+    "frame_60": 0,
+    "frame_66": 0,
+    "frame_72": 0,
+    "frame_78": 0,
+    "frame_84": 1,
+    "frame_90": 0,
+    "frame_96": 0,
+    "frame_102": 1,
+    "frame_108": 2,
+    "frame_114": 2,
+    "frame_120": 2,
+    "frame_126": 1,
+    "frame_132": 2,
+    "frame_138": 4,
+    "frame_144": 4,
+    "frame_150": 4,
+    "frame_156": 3,
+    "frame_162": 3,
+    "frame_168": 4,
+    "frame_174": 3,
+    "frame_180": 4,
+    "frame_186": 2,
+    "frame_192": 2,
+    "frame_198": 2,
+    "frame_204": 1,
+    "frame_210": 4,
+    "frame_216": 3,
+    "frame_222": 2,
+    "frame_228": 4,
+    "frame_234": 1,
+    "frame_240": 2,
+    "frame_246": 2,
+    "frame_252": 0,
+    "frame_258": 1,
+    "frame_264": 1,
+    "frame_270": 0,
+    "frame_276": 0,
+    "frame_282": 0,
+    "frame_288": 0,
+    "frame_294": 1,
+    "frame_300": 0,
+    "frame_306": 1,
+    "frame_312": 1,
+    "frame_318": 1,
+    "frame_324": 0,
+    "frame_330": 0,
+    "frame_336": 0,
+    "frame_342": 0,
+    "frame_348": 0,
+    "frame_354": 0,
+    "frame_360": 0,
+    "frame_366": 0,
+    "frame_372": 0,
+    "frame_378": 0,
+    "frame_384": 0,
+    "frame_390": 0
+  }
+}
