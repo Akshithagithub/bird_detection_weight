@@ -3,7 +3,7 @@ Bird Detection & Weight Estimation System
 
 This project detects birds in video, assigns unique tracking IDs, counts them across frames, and estimates relative weight index using bounding box area. A FastAPI backend exposes endpoints to analyze videos and download processed results.
 
-1. Features
+# 1. Features
 
 YOLO-based bird detection
 
@@ -20,7 +20,7 @@ Upload any new video for analysis
 Download CSV weight summary report
 
 
-2. Folder Structure
+# 2. Folder Structure
 Poultry project/
 │
 ├── api/                     → FastAPI application
@@ -42,7 +42,7 @@ Poultry project/
 └── requirements.txt
 
 
-3. Environment Setup
+# 3. Environment Setup
 Create virtual environment:
 python -m venv my_env
 
@@ -56,23 +56,23 @@ Install required packages:
 pip install -r requirements.txt
 
 
-4. Run the API server
+# 4. Run the API server
 
-Inside project root:
+## Inside project root:
 
 uvicorn api.fastapi_app:app --reload
 
 
-API will run at:
+## API will run at:
 
 http://127.0.0.1:8000
 
-Documentation UI:
+## Documentation UI:
 
 http://127.0.0.1:8000/docs
 
 
-5. API Endpoints
+# 5. API Endpoints
 Root test
 GET /
 
@@ -92,9 +92,9 @@ Download weight CSV
 GET /download-csv
 
 
-6. CURL Example for /analyze_video
+# 6. CURL Example for /analyze_video
 
-Use this to send a video to backend for analysis:
+ ## Use this to send a video to backend for analysis:
 
 curl -X POST "http://127.0.0.1:8000/analyze_video" \
      -H "accept: application/json" \
@@ -107,7 +107,7 @@ Example:
 file=@input/input.mp4
 
 
-7. Method Explanation (Implementation Details)
+# 7. Method Explanation (Implementation Details)
 Bird counting approach:
 
 YOLOv8n detector identifies bounding boxes (class 14 = bird)
@@ -129,7 +129,7 @@ Weight index averaged across all frames per bird
 Output returned as weight_index per ID
 
 
-8. Demo Output Files
+# 8. Demo Output Files
 
 Available inside output folder:
 
@@ -140,7 +140,7 @@ sample_output.json → JSON returned from /analyze_video
 bird_weight_report.csv → summary table
 
 
-9. Notes
+# 9. Notes
 
 All detections run on CPU
 
